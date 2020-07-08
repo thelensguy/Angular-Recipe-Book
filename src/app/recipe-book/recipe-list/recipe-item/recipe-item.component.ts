@@ -8,6 +8,7 @@ import { RecipeBook } from '../../recipe-book.model';
 })
 export class RecipeItemComponent implements OnInit {
   @Input() recipe: RecipeBook;
+  @Input() index: number;
 
   constructor() {}
 
